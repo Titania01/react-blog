@@ -1,11 +1,9 @@
-import React from "react"
+import React from "react";;
+import Footer from './componenets/Footer'
+import Main  from './componenets/Main'
+import Navbar  from './componenets/Navbar'
+import  Sidebar from './componenets/Sidebar'
 import './App.css';
-import Navbar from "./components/Navbar"
-import Main from "./components/Main"
-import Sidebar from "./components/Sidebar"
-import Footer from "./components/Footer"
-
-
 
 function App() {
   return (

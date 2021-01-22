@@ -1,10 +1,12 @@
 import React from "react"
+import Above from "./Above"
 
 function Main() {
 
   return (
     <div className="Main">
-      <h1>this is my footer</h1>
+      <Above />
+      
     </div>
   )
 }

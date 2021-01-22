@@ -1,10 +1,15 @@
 import React from "react"
 
+
 function Navbar() {
 
   return (
-    <div>
-      <h1>this is my footer</h1>
+    <div className="Navbar">
+      <h4>themeisle</h4>
+      <p>themes/plugins</p>
+      <p>popular guides</p>
+      <p>hosting reviews</p>
+      <p>about</p>
     </div>
   )
 }

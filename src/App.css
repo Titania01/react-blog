@@ -1,14 +1,67 @@
-.App {
-  text-align: center;
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Navbar {
+  height: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 25rem;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(80, 95, 127);
+  text-transform: uppercase;
+  padding-left: 50rem;
+  position: static;
+}
+
+.Navbar > h4 {
+  color: rgb(31, 42, 68);
+}
+
+.Navbar:hover > p {
+  cursor: pointer;
+}
+
+.Above {
+  background-color: rgb(65, 103, 207);
+  height: 20rem;
+  color: white;
+  padding: 3rem 0 0 20rem;
+  position: relative;
+}
+
+.Above > h1 {
+  font-weight: 900;
+}
+
+.Above > p {
+  color: white;
+  font-size: 22px;
+}
+
+.Sidebar {
+  background: tomato;
 }
 
 .Main {
-  background-color: #282c34;
+  background-color: rgb(246, 247, 249);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* display: grid; */
+  /* grid-template-rows: 10rem 1fr; */
   color: white;
+}
+
+.Footer {
+  background: rgb(50, 71, 107);
+  height: 20rem;
 }

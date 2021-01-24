@@ -82,7 +82,7 @@ body {
   background: #fff;
   height: 20rem;
   width: 60rem;
-  padding: 15px;
+  padding: 30px;
 }
 
 .color {
@@ -90,13 +90,27 @@ body {
   font-weight: 500;
 }
 
+.color:hover {
+  cursor: pointer;
+  color: blue;
+}
+
 .color1 {
   color: #787878;
+  padding-left: 1rem;
 }
 
 .one > span {
-  padding-left: 1rem;
   font-size: 16;
+}
+
+.five:hover {
+  cursor: pointer;
+  color: tomato;
+}
+
+.pee {
+  color: #787878;
 }
 
 .two {

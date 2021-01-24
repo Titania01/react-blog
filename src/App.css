@@ -85,8 +85,18 @@ body {
   padding: 15px;
 }
 
+.color {
+  color: tomato;
+  font-weight: 500;
+}
+
+.color1 {
+  color: #787878;
+}
+
 .one > span {
   padding-left: 1rem;
+  font-size: 16;
 }
 
 .two {

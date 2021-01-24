@@ -4,8 +4,8 @@ function Holder() {
   return (
     <div className="holder">
     <div className="one">
-      <span>WORDPRESS PLUGGINS</span>
-      <span>8MINS READ </span>
+      <span className="color">WORDPRESS PLUGGINS</span>
+      <span className="color1">8MINS READ </span>
     </div>
     <div className="two"></div>
     </div>

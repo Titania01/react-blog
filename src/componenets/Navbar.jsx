@@ -5,7 +5,7 @@ function Navbar() {
 
   return (
     <div className="Navbar">
-      <h4>themeisle</h4>
+      <h4 className="spacer">themeisle</h4>
       <p>themes/plugins</p>
       <p>popular guides</p>
       <p>hosting reviews</p>

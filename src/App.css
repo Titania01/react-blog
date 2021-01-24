@@ -13,19 +13,27 @@ body {
 .Navbar {
   height: 3rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   padding-right: 25rem;
   font-size: 14px;
   font-weight: 600;
   color: rgb(80, 95, 127);
   text-transform: uppercase;
-  padding-left: 50rem;
+  padding-left: 5rem;
   position: static;
+}
+
+.spacer {
+  flex-grow: 1;
+}
+
+.Navbar > p {
+  padding-left: 2rem;
 }
 
 .Navbar > h4 {
   color: rgb(31, 42, 68);
+  font-size: 22px;
 }
 
 .Navbar:hover > p {
@@ -58,7 +66,34 @@ body {
   min-height: 100vh;
   /* display: grid; */
   /* grid-template-rows: 10rem 1fr; */
-  color: white;
+  /* color: white; */
+}
+
+.holder {
+  display: flex;
+  padding: 0 20rem 0 20rem;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  top: -3rem;
+}
+
+.one {
+  background: #fff;
+  height: 20rem;
+  width: 60rem;
+  padding: 15px;
+}
+
+.one > span {
+  padding-left: 1rem;
+}
+
+.two {
+  background: #fff;
+  height: 20rem;
+  width: 30rem;
+  margin-left: 2rem;
 }
 
 .Footer {

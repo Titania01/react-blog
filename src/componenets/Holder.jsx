@@ -12,7 +12,14 @@ function Holder() {
         <h4>READ MORE</h4>
       </div>
     </div>
-    <div className="two"></div>
+    <div className="two">
+      <h3>Featured Posts</h3>
+      <p>Best Free Email Marketing Services</p>
+      <p>Create a Blog Guide</p>
+      <p>WordPress .Com vs .Org</p>
+      <p>Best Domain Registrars</p>
+      <p>How to Start an Online Store</p>
+    </div>
     </div>
   )
 }

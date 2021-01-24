@@ -132,8 +132,19 @@ body {
 .two {
   background: #fff;
   height: 20rem;
+  line-height: 1.5;
   width: 30rem;
   margin-left: 2rem;
+  padding: 30px;
+}
+
+.two > p {
+  border-bottom: #d3cece solid 1px;
+  color: #787878;
+}
+
+.two > :last-child {
+  border-bottom: none;
 }
 
 .Footer {

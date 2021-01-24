@@ -111,6 +111,22 @@ body {
 
 .pee {
   color: #787878;
+  line-height: 2;
+}
+
+.base {
+  background: tomato;
+  color: #fff;
+  width: 8rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.base:hover {
+  cursor: pointer;
+  background-color: blue;
 }
 
 .two {

@@ -8,6 +8,9 @@ function Holder() {
       <span className="color1">8MINS READ </span>
       <h2 className="five">5 Best WordPress Webinar Plugins for Online Events in 2021</h2>
       <p className="pee">Video conferencing offers many opportunities due to its near-unlimited attendance potential. <br/> However, it can be challenging to host online events on your own website, which is where <br/> WordPress webinar plugins come in handy.</p>
+      <div className="base">
+        <h4>READ MORE</h4>
+      </div>
     </div>
     <div className="two"></div>
     </div>

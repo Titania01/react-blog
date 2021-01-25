@@ -11,7 +11,7 @@ const Other = () => {
       <div className="below">
         <p className="woo">WOOCOMMERCE</p>
         <h3 className="how">How to Enable Customer <br/> Reviews for WooCommerce</h3>
-        <p className="color1">8 MINS READ </p>
+        <p className="wooo">8 MINS READ </p>
       </div>
       </div>
 
@@ -23,10 +23,15 @@ const Other = () => {
       <div className="below">
         <p className="woo">TOOLS</p>
         <h3 className="how">Need a WordPress to HTML  <br/> Converter? Here are the 5 Best <br/> Solutions in 2021 </h3>
-        <p className="color1">7 MINS READ </p>
+        <p className="wooo">7 MINS READ </p>
       </div>
       </div>
-      <div className="eight"></div>
+      <div className="eight">
+        <div className="search">
+          <h3>Search Blog</h3>
+          <input type="text" placeholder="Type here and press enter..."/>
+        </div>
+      </div>
     </div>
   )
 }

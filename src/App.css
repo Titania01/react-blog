@@ -11,17 +11,21 @@ body {
 }
 
 .Navbar {
-  height: 3rem;
+  height: 64px;
   display: flex;
   align-items: center;
   padding-right: 25rem;
   font-size: 14px;
+  top: 0;
+  left: 0;
+  width: 100vw;
   font-weight: 600;
   color: rgb(80, 95, 127);
   text-transform: uppercase;
   padding-left: 5rem;
-  /* position: fixed; */
-  /* z-index: 1; */
+  position: fixed;
+  z-index: 6;
+  background: white;
 }
 
 .spacer {
@@ -64,7 +68,9 @@ body {
 
 .Main {
   background-color: rgb(246, 247, 249);
-  height: 200vh;
+  margin-top: 64px;
+
+  /* height: 200vh; */
 }
 
 .holder {
@@ -80,6 +86,8 @@ body {
   background: #fff;
   height: 20rem;
   width: 60rem;
+  position: relative;
+  top: -2.4rem;
   padding: 30px;
 }
 
@@ -129,7 +137,7 @@ body {
 
 .two {
   background: #fff;
-  height: 20rem;
+  height: 25rem;
   line-height: 1.5;
   width: 30rem;
   margin-left: 2rem;
@@ -139,6 +147,13 @@ body {
 .two > p {
   border-bottom: #d3cece solid 1px;
   color: #787878;
+  padding-bottom: 1rem;
+}
+
+.two > p:hover {
+  cursor: pointer;
+  color: tomato;
+  transition: 1s;
 }
 
 .two > :last-child {
@@ -157,6 +172,8 @@ body {
   background: #fff;
   height: 27rem;
   width: 23rem;
+  position: relative;
+  top: -5rem;
 }
 
 .small {
@@ -184,6 +201,8 @@ p {
   background: #fff;
   height: 27rem;
   width: 23rem;
+  position: relative;
+  top: -5rem;
 }
 
 .below {
@@ -217,11 +236,11 @@ p {
 }
 
 .eight {
-  margin-left: 1rem;
+  margin-left: 2rem;
 }
 
 .search {
-  padding-left: 3rem;
+  padding-left: 2rem;
 }
 
 .search > input {
@@ -236,7 +255,31 @@ p {
   font-size: 18px;
 }
 
+.search > p {
+  margin-left: -2rem;
+  color: #787878;
+  line-height: 1.5;
+  border-bottom: #d4cdcd 1px solid;
+  padding-bottom: 1rem;
+}
+
+.search > :last-child {
+  border-bottom: none;
+}
+
+.search > p:hover {
+  cursor: pointer;
+  color: tomato;
+  transition: 1s;
+}
+
 .Footer {
-  background: rgb(50, 71, 107);
-  height: 20rem;
+  background: rgb(255, 255, 255);
+  height: 4rem;
+  padding: 0 20rem 0 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(48, 46, 46);
+  font-size: 14px;
 }

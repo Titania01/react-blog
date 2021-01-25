@@ -4,7 +4,8 @@ import React from 'react'
 function Footer() {
   return (
     <div className="Footer">
-      <h1>this is my footer</h1>
+          <p>&copy; 2021 Themeisle | Powered by VertiStudio</p>
+          <p>Terms | Privacy Policy</p>
     </div>
   )
 }

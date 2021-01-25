@@ -26,10 +26,21 @@ const Other = () => {
         <p className="wooo">7 MINS READ </p>
       </div>
       </div>
+
       <div className="eight">
         <div className="search">
           <h3>Search Blog</h3>
           <input type="text" placeholder="Type here and press enter..."/>
+        </div>
+        <div className="search">
+          <h3>Blog Topics</h3>
+          <p>WordPress</p>
+          <p>Tutorials</p>
+          <p>Plugins</p>
+          <p>Themes</p>
+          <p>Hosting</p>
+          <p>Blogging</p>
+          <p>WordPress Community</p>
         </div>
       </div>
     </div>
